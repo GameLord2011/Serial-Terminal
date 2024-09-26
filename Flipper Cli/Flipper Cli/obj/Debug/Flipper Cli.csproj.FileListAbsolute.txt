@@ -1,0 +1,14 @@
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.csproj.AssemblyReference.cache
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper_Cli.Form1.resources
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper_Cli.Properties.Resources.resources
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.csproj.GenerateResource.cache
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.csproj.CoreCompileInputs.cache
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\bin\Debug\Flipper Cli.exe.config
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\bin\Debug\Flipper Cli.exe
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\bin\Debug\Flipper Cli.pdb
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.exe
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.pdb
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\bin\Debug\Flipper Cli.exe.manifest
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\bin\Debug\Flipper Cli.application
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.exe.manifest
+C:\Users\aandl\source\repos\Flipper Cli\Flipper Cli\obj\Debug\Flipper Cli.application

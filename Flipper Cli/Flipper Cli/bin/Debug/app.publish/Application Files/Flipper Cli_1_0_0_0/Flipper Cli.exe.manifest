@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Flipper Cli.exe" version="1.0.0.0" publicKeyToken="f51d31e009c70f8c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Flipper Cli" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Flipper Cli.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flipper Cli.exe" size="12760">
+      <assemblyIdentity name="Flipper Cli" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lV0ULMs2mMsnSXYL34PvB92uM8Y7pf6LBWndO71uQAo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Flipper Cli.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SCHOOLCOMPUTER\aandl" issuerKeyHash="ea1c73cc773e82cf582843731f39813a89a49b66" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O2KNaqThPB9pWbyNL8QCZaA/NqSMQnKZH++9eVK5baY=</DigestValue></Reference></SignedInfo><SignatureValue>fZ6u3AczSFMcT3MGrVtHcd30BKXV5p3fkVPNQMl8njoBqcM1IzJfjcQ9qgSdLZ4F3wZvPXU5zL6yzrUHOao8+Xos0ZFeH5Wadj3PYxUJ+xmTrTBvXGzI/8UWcD6zp9JhjPdZZXLHbm0ZSxdaJDulUxwKf2CWxS9LnyhImM61baQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lsnKTKhb8g58WHzU24zsmUe+F83qTUN4EwGVSgTYWJThusJNcSR8+bI+aqtQG1dbR1mAQ+b/vqa3bJLM/DGlsHeMcc/A3U/te1qeJOkrFY/4cOf4NABiJ9btlJnf3uTDFoTAw6UmeWKRPkpgsN/PKeseHblCQ5vUzpKJgwAOC2E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a66db95279bdef1f9972428ca4363fa06502c42f8dbc59691f3ce1a46a8d623b" Description="" Url=""><as:assemblyIdentity name="Flipper Cli.exe" version="1.0.0.0" publicKeyToken="f51d31e009c70f8c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SCHOOLCOMPUTER\aandl</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bLkT7nVN+5nz6h6W59xtOMZ5A1yY+qFtavHcpZWo9TA=</DigestValue></Reference></SignedInfo><SignatureValue>YtXIXyoWRy2+n05zoK089szuk9rksxcjQmNUNqi6aHNMe3vGJo8S3YFZUcHLEdMtBZk9HAeCo6BuQmjYOVbpLIzmIa9MAjIRxogLXeVJp2SlxzEfjD8VXcBUZ0YmR26s+64Ejogp34z27JgxAm6M5YdMxPe5TiS8qZ25jIWjZ1o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lsnKTKhb8g58WHzU24zsmUe+F83qTUN4EwGVSgTYWJThusJNcSR8+bI+aqtQG1dbR1mAQ+b/vqa3bJLM/DGlsHeMcc/A3U/te1qeJOkrFY/4cOf4NABiJ9btlJnf3uTDFoTAw6UmeWKRPkpgsN/PKeseHblCQ5vUzpKJgwAOC2E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVjHnSN3NDqpO79+np2lSNTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUwBDAEgATwBPAEwAQwBPAE0AUABVAFQARQBSAFwAYQBhAG4AZABsMB4XDTI0MDkyNTE4NTkwOVoXDTI1MDkyNjAwNTkwOVowMzExMC8GA1UEAx4oAFMAQwBIAE8ATwBMAEMATwBNAFAAVQBUAEUAUgBcAGEAYQBuAGQAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlsnKTKhb8g58WHzU24zsmUe+F83qTUN4EwGVSgTYWJThusJNcSR8+bI+aqtQG1dbR1mAQ+b/vqa3bJLM/DGlsHeMcc/A3U/te1qeJOkrFY/4cOf4NABiJ9btlJnf3uTDFoTAw6UmeWKRPkpgsN/PKeseHblCQ5vUzpKJgwAOC2ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBw39Dq+TWWOf6wzH+ugTYpxKE41HWrlatW2GqgzrGVKBmbcD85/ca/dbJ9tSkgrv9Oj9MyEMGHq+hcD5q3Xov13Fy4bnu7H+tpW9nJAxajvH67A9nVkG/sQ9NOvG6CiYB4ESgvFu5u9Z0LcTuqflYQBXH+mABA3tKoTpjWxSvDHA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
